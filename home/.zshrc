@@ -46,7 +46,7 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/android-sdk/build-tools/19.0.1/:/opt/android-sdk/platform-tools:/opt/android-sdk/tools:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.gem/ruby/2.4.0/bin"
+export PATH="$PATH:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/android-sdk/build-tools/19.0.1/:/opt/android-sdk/platform-tools:/opt/android-sdk/tools:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.gem/ruby/2.4.0/bin"
 
 export EDITOR='vim'
 
@@ -58,5 +58,3 @@ if [ -f '/Users/will/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users
 export GOPATH=~/Project/go
 export PATH=${PATH}:/usr/local/go/bin
 export PATH=${PATH}:~/Project/go/bin
-
-export LC_ALL="POSIX"

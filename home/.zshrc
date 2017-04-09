@@ -58,3 +58,4 @@ if [ -f '/Users/will/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users
 export GOPATH=~/Project/go
 export PATH=${PATH}:/usr/local/go/bin
 export PATH=${PATH}:~/Project/go/bin
+

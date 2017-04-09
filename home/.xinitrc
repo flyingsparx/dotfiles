@@ -1,6 +1,5 @@
-xss-lock -- i3lock  &
-~/.screenlayout/normal.sh
-#feh --randomize --bg-fill /home/will/Pictures/Wallpapers/*
-feh --bg-fill /home/will/Pictures/Wallpapers/wallpaper-2238707.jpg
-setxkbmap -layout "gb"
+xss-lock -- i3lock &
+feh --bg-fill Pictures/background.jpg
+xcompmgr -c &
+setxkbmap gb
 exec i3

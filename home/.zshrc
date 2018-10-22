@@ -7,10 +7,6 @@ ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="miloshadzic"
 
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
@@ -30,7 +26,7 @@ ZSH_THEME="miloshadzic"
 # DISABLE_CORRECTION="true"
 
 # Uncomment following line if you want red dots to be displayed while waiting for completion
-# COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Uncomment following line if you want to disable marking untracked files under
 # VCS as dirty. This makes repository status check for large repositories much,
@@ -47,8 +43,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 export EDITOR='vim'
-
 export GOPATH=~/Project/go
-export PATH=${PATH}:~/Project/go/bin
-export PATH=${PATH}:~/Library/Python/2.7/bin
+export PATH=${PATH}:/usr/local/sbin:/usr/local/bin:/usr/bin:~/.meteor:/usr/local/go/bin:~/project/go/bin
 
+source .homesick/repos/homeshick/homeshick.sh

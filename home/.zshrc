@@ -46,16 +46,9 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-export PATH=${PATH}:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/android-sdk/build-tools/19.0.1/:/opt/android-sdk/platform-tools:/opt/android-sdk/tools:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.gem/ruby/2.4.0/bin
-
 export EDITOR='vim'
 
-# The next line updates PATH for the Google Cloud SDK.   
-if [ -f '/Users/will/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/will/google-cloud-sdk/path.zsh.inc'; fi
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/will/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/will/google-cloud-sdk/completion.zsh.inc'; fi
-
 export GOPATH=~/Project/go
-export PATH=${PATH}:/usr/local/go/bin
 export PATH=${PATH}:~/Project/go/bin
+export PATH=${PATH}:~/Library/Python/2.7/bin
 
